@@ -4,8 +4,8 @@
 
 Site for Pure Scan, a private document scanner for Android: a landing page and the privacy policy.
 
-- Landing: https://matthiasrondenet.github.io/pure-scan-landing/
-- Privacy policy: https://matthiasrondenet.github.io/pure-scan-landing/privacy/
+- Landing: https://purescan.yasd.io/
+- Privacy policy: https://purescan.yasd.io/privacy/
 
 Built with React 19, TypeScript and Vite 8, same stack as [yasd](https://github.com/matthiasrondenet/yasd). No CSS framework, no third-party requests: fonts are self-hosted and a Content-Security-Policy meta tag is added at build time.
 
@@ -26,7 +26,7 @@ npm run dev
 | `npm run lint`     | Run ESLint                          |
 | `npm run lint:fix` | Run ESLint with auto-fix            |
 
-The site is three static pages (`index.html`, `privacy/index.html`, `404.html`), each mounting the same React entry. The deploy workflow builds with `VITE_BASE=/pure-scan-landing/`.
+The site is three static pages (`index.html`, `privacy/index.html`, `404.html`), each mounting the same React entry. The deploy workflow builds with `VITE_BASE=/`, since the site is served from the custom domain purescan.yasd.io.
 
 ## Privacy wording
 

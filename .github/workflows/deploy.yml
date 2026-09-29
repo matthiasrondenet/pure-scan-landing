@@ -31,7 +31,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          VITE_BASE: /pure-scan-landing/
+          VITE_BASE: /
 
       - uses: actions/upload-pages-artifact@v3
         with:
