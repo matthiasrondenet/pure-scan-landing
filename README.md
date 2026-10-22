@@ -7,7 +7,7 @@ Site for Pure Scan, a private document scanner for Android: a landing page and t
 - Landing: https://purescan.yasd.io/
 - Privacy policy: https://purescan.yasd.io/privacy/
 
-Built with React 19, TypeScript and Vite 8, same stack as [yasd](https://github.com/matthiasrondenet/yasd). No CSS framework, no third-party requests: fonts are self-hosted and a Content-Security-Policy meta tag is added at build time.
+Built with React 19, TypeScript and Vite 8. No CSS framework, no third-party requests.
 
 ## Development
 
