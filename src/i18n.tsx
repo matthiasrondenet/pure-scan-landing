@@ -27,7 +27,8 @@ export interface Copy {
   heroTitleStart: string;
   heroTitleAccent: string;
   heroText: string;
-  comingSoon: string;
+  downloadCta: string;
+  downloadNote: string;
   phoneAlt: string;
   phonePage: string;
   phoneStatus: string;
@@ -83,7 +84,8 @@ const en: Copy = {
   heroTitleAccent: 'yours.',
   heroText:
     'Pure Scan scans pages, reads the text and exports clean PDFs, all on your device. Your documents stay with you.',
-  comingSoon: 'Coming soon on Google Play',
+  downloadCta: 'Download the APK',
+  downloadNote: 'Android only · installed outside the Play Store · Google Play coming soon',
   phoneAlt: 'Illustration of the Pure Scan camera screen',
   phonePage: 'Page 2 of 3',
   phoneStatus: 'Document detected — hold steady',
@@ -112,7 +114,8 @@ const en: Copy = {
   privateNotItems: ['Create an account', 'Ads', 'Tracking'],
 
   downloadTitle: 'Get Pure Scan',
-  downloadText: 'Pure Scan is finishing up its Google Play review — check back soon.',
+  downloadText:
+    'Pure Scan is finishing its Google Play review. In the meantime, download the APK and install it directly.',
 
   contact: 'Contact',
   privacyShort: 'Privacy',
@@ -147,7 +150,8 @@ const fr: Copy = {
   heroTitleAccent: 'pour vous.',
   heroText:
     'Pure Scan numérise vos pages, lit le texte et exporte des PDF propres, le tout sur votre appareil. Vos documents restent chez vous.',
-  comingSoon: 'Bientôt sur Google Play',
+  downloadCta: "Télécharger l'APK",
+  downloadNote: 'Android uniquement · installation hors Play Store · bientôt sur Google Play',
   phoneAlt: "Illustration de l'écran de l'appareil photo de Pure Scan",
   phonePage: 'Page 2 sur 3',
   phoneStatus: 'Document détecté — ne bougez plus',
@@ -176,7 +180,8 @@ const fr: Copy = {
   privateNotItems: ['Créer un compte', 'Publicités', 'Suivi'],
 
   downloadTitle: 'Obtenir Pure Scan',
-  downloadText: 'Pure Scan termine sa validation par Google Play — revenez bientôt.',
+  downloadText:
+    "Pure Scan termine sa validation par Google Play. En attendant, téléchargez l'APK et installez-la directement.",
 
   contact: 'Contact',
   privacyShort: 'Confidentialité',
