@@ -26,7 +26,6 @@ const inline = (text: string): React.ReactNode[] =>
 export const MarkdownBlocks: React.FC<{ blocks: Block[] }> = ({ blocks }) => (
   <>
     {blocks.map((b, i) => {
-      if (b.type === 'h2') return <h2 key={i}>{b.text}</h2>;
       if (b.type === 'p') return <p key={i}>{inline(b.text)}</p>;
       return (
         <ul key={i}>

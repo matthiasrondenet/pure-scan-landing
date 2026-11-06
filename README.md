@@ -30,7 +30,7 @@ The site is three static pages (`index.html`, `privacy/index.html`, `404.html`),
 
 ## Privacy wording
 
-`src/content/privacy-policy.md` is rendered as-is on the privacy page. Its source of truth is `docs/play-store/privacy-policy.md` in the private pure-scan repo: update it there first, then copy it here.
+`src/content/privacy-policy.md` (EN) and `privacy-policy.fr.md` (FR) are rendered on the privacy page, depending on the visitor language (browser language, switchable with the FR/EN toggle and remembered in localStorage). Copy for the other pages lives in `src/i18n.tsx`. Its source of truth is `docs/play-store/privacy-policy.md` in the private pure-scan repo: update it there first, then copy it here.
 
 ## Fonts
 
