@@ -181,6 +181,7 @@ export const Home: React.FC = () => {
                     {t.testStepOptin}
                   </a>
                 </div>
+                <span className="test__note">{t.testSwitchNote}</span>
               </div>
             )}
           </div>

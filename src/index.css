@@ -700,6 +700,11 @@ button:focus-visible {
   gap: 10px;
 }
 
+.test__note {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.72);
+}
+
 .test__link {
   display: inline-flex;
   align-items: center;

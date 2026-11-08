@@ -51,6 +51,7 @@ export interface Copy {
   testText: string;
   testStepGroup: string;
   testStepOptin: string;
+  testSwitchNote: string;
 
   // Footer
   contact: string;
@@ -125,6 +126,8 @@ const en: Copy = {
     'Join the test program to install Pure Scan from Google Play and receive updates automatically. It takes two steps, in this order, with the Google account used on your phone.',
   testStepGroup: '1. Join the test group',
   testStepOptin: '2. Become a tester on Google Play',
+  testSwitchNote:
+    'Already installed the APK? Uninstall it first: the APK and the Google Play version are signed differently, so one cannot replace the other. Prefer the APK? The download button above gives you the latest version directly.',
 
   contact: 'Contact',
   privacyShort: 'Privacy',
@@ -196,6 +199,8 @@ const fr: Copy = {
     "Rejoignez le programme de test pour installer Pure Scan depuis Google Play et recevoir les mises à jour automatiquement. Deux étapes, dans cet ordre, avec le compte Google utilisé sur votre téléphone.",
   testStepGroup: '1. Rejoindre le groupe de test',
   testStepOptin: '2. Devenir testeur sur Google Play',
+  testSwitchNote:
+    "Vous avez déjà installé l'APK ? Désinstallez-la d'abord : l'APK et la version Google Play sont signées différemment, l'une ne peut pas remplacer l'autre. Vous préférez l'APK ? Le bouton de téléchargement ci-dessus donne directement la dernière version.",
 
   contact: 'Contact',
   privacyShort: 'Confidentialité',
