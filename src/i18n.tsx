@@ -90,7 +90,7 @@ const en: Copy = {
   heroText:
     'Pure Scan scans pages, reads the text and exports clean PDFs, all on your device. Your documents stay with you.',
   downloadCta: 'Download the APK',
-  downloadNote: 'Android only · installed outside the Play Store · Google Play coming soon',
+  downloadNote: 'Android only · always the latest version, updated with every release · installed outside the Play Store',
   phoneAlt: 'Illustration of the Pure Scan camera screen',
   phonePage: 'Page 2 of 3',
   phoneStatus: 'Document detected — hold steady',
@@ -163,7 +163,7 @@ const fr: Copy = {
   heroText:
     'Pure Scan numérise vos pages, lit le texte et exporte des PDF propres, le tout sur votre appareil. Vos documents restent chez vous.',
   downloadCta: "Télécharger l'APK",
-  downloadNote: 'Android uniquement · installation hors Play Store · bientôt sur Google Play',
+  downloadNote: 'Android uniquement · toujours la dernière version, mise à jour à chaque release · installation hors Play Store',
   phoneAlt: "Illustration de l'écran de l'appareil photo de Pure Scan",
   phonePage: 'Page 2 sur 3',
   phoneStatus: 'Document détecté — ne bougez plus',
