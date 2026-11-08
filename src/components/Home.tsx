@@ -1,5 +1,5 @@
 import React from 'react';
-import { DOWNLOAD_URL, PRIVACY_URL } from '../constants.ts';
+import { DOWNLOAD_URL, PRIVACY_URL, TEST_GROUP_URL, TEST_OPTIN_URL } from '../constants.ts';
 import { useI18n } from '../i18n.tsx';
 import { Layout } from './Layout.tsx';
 import { Logo } from './Logo.tsx';
@@ -77,6 +77,7 @@ const Phone: React.FC = () => {
 
 export const Home: React.FC = () => {
   const { t } = useI18n();
+  const showTest = TEST_GROUP_URL !== '' && TEST_OPTIN_URL !== '';
 
   return (
     <Layout>
@@ -168,6 +169,20 @@ export const Home: React.FC = () => {
                 <div className="cta__qr" />
               </div>
             </div>
+            {showTest && (
+              <div className="test">
+                <h3>{t.testTitle}</h3>
+                <p>{t.testText}</p>
+                <div className="test__steps">
+                  <a className="test__link" href={TEST_GROUP_URL}>
+                    {t.testStepGroup}
+                  </a>
+                  <a className="test__link" href={TEST_OPTIN_URL}>
+                    {t.testStepOptin}
+                  </a>
+                </div>
+              </div>
+            )}
           </div>
         </section>
       </main>
