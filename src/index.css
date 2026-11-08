@@ -676,6 +676,51 @@ button:focus-visible {
   justify-items: start;
 }
 
+.test {
+  position: relative;
+  display: grid;
+  gap: 10px;
+  max-width: 520px;
+  padding-top: var(--space-md);
+  border-top: 1px solid rgba(255, 255, 255, 0.28);
+}
+
+.test h3 {
+  font-size: 20px;
+}
+
+.test p {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.84);
+}
+
+.test__steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.test__note {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.test__link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 18px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.16);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.test__link:hover {
+  background: rgba(255, 255, 255, 0.26);
+}
+
 .cta__qr:empty {
   display: none;
 }

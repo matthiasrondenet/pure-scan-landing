@@ -47,6 +47,11 @@ export interface Copy {
   // Download
   downloadTitle: string;
   downloadText: string;
+  testTitle: string;
+  testText: string;
+  testStepGroup: string;
+  testStepOptin: string;
+  testSwitchNote: string;
 
   // Footer
   contact: string;
@@ -85,7 +90,7 @@ const en: Copy = {
   heroText:
     'Pure Scan scans pages, reads the text and exports clean PDFs, all on your device. Your documents stay with you.',
   downloadCta: 'Download the APK',
-  downloadNote: 'Android only · installed outside the Play Store · Google Play coming soon',
+  downloadNote: 'Android only · always the latest version, updated with every release · installed outside the Play Store',
   phoneAlt: 'Illustration of the Pure Scan camera screen',
   phonePage: 'Page 2 of 3',
   phoneStatus: 'Document detected — hold steady',
@@ -116,6 +121,13 @@ const en: Copy = {
   downloadTitle: 'Get Pure Scan',
   downloadText:
     'Pure Scan is finishing its Google Play review. In the meantime, download the APK and install it directly.',
+  testTitle: 'Or get it through Google Play',
+  testText:
+    'Join the test program to install Pure Scan from Google Play and receive updates automatically. It takes two steps, in this order, with the Google account used on your phone.',
+  testStepGroup: '1. Join the test group',
+  testStepOptin: '2. Become a tester on Google Play',
+  testSwitchNote:
+    'Already installed the APK? Uninstall it first: the APK and the Google Play version are signed differently, so one cannot replace the other. Prefer the APK? The download button above gives you the latest version directly.',
 
   contact: 'Contact',
   privacyShort: 'Privacy',
@@ -151,7 +163,7 @@ const fr: Copy = {
   heroText:
     'Pure Scan numérise vos pages, lit le texte et exporte des PDF propres, le tout sur votre appareil. Vos documents restent chez vous.',
   downloadCta: "Télécharger l'APK",
-  downloadNote: 'Android uniquement · installation hors Play Store · bientôt sur Google Play',
+  downloadNote: 'Android uniquement · toujours la dernière version, mise à jour à chaque release · installation hors Play Store',
   phoneAlt: "Illustration de l'écran de l'appareil photo de Pure Scan",
   phonePage: 'Page 2 sur 3',
   phoneStatus: 'Document détecté — ne bougez plus',
@@ -182,6 +194,13 @@ const fr: Copy = {
   downloadTitle: 'Obtenir Pure Scan',
   downloadText:
     "Pure Scan termine sa validation par Google Play. En attendant, téléchargez l'APK et installez-la directement.",
+  testTitle: 'Ou passez par Google Play',
+  testText:
+    "Rejoignez le programme de test pour installer Pure Scan depuis Google Play et recevoir les mises à jour automatiquement. Deux étapes, dans cet ordre, avec le compte Google utilisé sur votre téléphone.",
+  testStepGroup: '1. Rejoindre le groupe de test',
+  testStepOptin: '2. Devenir testeur sur Google Play',
+  testSwitchNote:
+    "Vous avez déjà installé l'APK ? Désinstallez-la d'abord : l'APK et la version Google Play sont signées différemment, l'une ne peut pas remplacer l'autre. Vous préférez l'APK ? Le bouton de téléchargement ci-dessus donne directement la dernière version.",
 
   contact: 'Contact',
   privacyShort: 'Confidentialité',
